@@ -44,6 +44,7 @@
 - Lumberjack
 - Miner
 - Winegrower
+- Trucker
 - Paramedics - Whitelisted
 - LSPD (Police) - Whitelisted
 - IIA (CIA) - Whitelisted
