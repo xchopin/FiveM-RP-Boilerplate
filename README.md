@@ -30,12 +30,13 @@
 - Bank Account
 - Loading Screen
 - Whitelist
-- Some buildings opened (FIB, Hospital, ...)
+- Buildings for some jobs (Government, Hospital)
 - Transporter
-- Realistic earshot 
+- Realistic earshot (range of 7 meters) 
 - Gas Stations
 - HUD
 - Car health and speed
+- Custom cars (Audi, Police, Ferrari, ...)
 
 
 ## Jobs
