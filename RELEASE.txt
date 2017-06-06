@@ -1,0 +1,42 @@
+CitizenMP.Server (FiveM) - released 2017-04-30, build 3.
+
+Contains cfx-server 7503609dafd327a246291b09ae15bb1ec82a90df.
+
+Earlier builds were respun due to two critical flaws in master server code due to early local testing.
+
+Changes from previous release (45c2dc72261272a913127d0cb88e67f93dd71055 - https://runtime.fivem.net/client/cfx-server-45c2dc7.7z):
+
+$ git shortlog 45c2dc72261272a913127d0cb88e67f93dd71055..HEAD
+nihonium (4):
+      Add history of commands
+      Fix code style, rework start of the history handling
+      More neat command input boxxy
+      Cleanup
+
+flerovium (13):
+      PerformHttpRequest fixes for Lua thread contexts
+      heartbeat time fixes
+      factor out GameServer into GameServerImplV1, stage 1
+      cleanup and more gameserverimpl refactoring
+      WindowedLogger: not reborn? :/
+      changes before breaking it
+      fix SendReliableCommand call breakage
+      gitlab ci config
+      cleanup, remove nuget
+      get rid of uhttpsharp
+      restore first
+      return server version in initConnect result
+      fix challenge corruption in getinfo
+
+iridium (1):
+      darnit, that's a wrong host
+
+Contains cfx-server-data aeab2edc5cb98ba1991f99b911462f40cf7b7e9e.
+
+Changes from previous release (def0581d6d99fd2d5310dc12e017568ce25cfcab):
+
+$ git shortlog def0581d6d99fd2d5310dc12e017568ce25cfcab..HEAD
+ytterbium (3):
+      ignore local resources
+      change defaults
+      spawnmanager: wait for collision

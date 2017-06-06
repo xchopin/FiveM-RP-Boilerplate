@@ -1,0 +1,82 @@
+ListenPort: 30120
+
+PreParseResources:
+    - mapmanager
+
+AutoStartResources:
+    - chat
+    - spawnmanager
+    - fivem-map-skater
+    - loading
+    - street
+    - baseevents
+    - rconlog
+    - hardcap # prevents the game from breaking
+    - essentialmode
+    - es_freeroam
+    - nameOfPlayers
+    - banking
+    - FBI
+    - Sheriff
+    - LSPD
+    - car
+    - garages
+    - frfuel
+    - handsup
+    - vehcontrol
+    - carhud
+    - NeverWanted
+    - jobs-system
+    - jobs-paycheck
+    - lastpostodb
+    - inventory
+    - missiontext
+    - recolt
+    - ammunation
+    - police
+    - needs-system
+    - voice-proximity
+    - food-shop
+    - paramedics
+    - vehshop
+    - prefecture
+    - clothing_shop
+    - personnal_menu
+    - company_mineur
+    - company_bucheron
+    - whitelist
+    - sync
+    - company_viticulteur
+    - lscustoms
+    - truckerjob
+    - vdk_call
+    - company_taxi
+    - teleporter
+    - gspr
+    - es_admin
+    - blanchiement
+    - es_afterStart
+
+
+# do change
+
+# configure this, please
+
+ScriptDebug: true
+
+DebugLog: true
+
+# set to false to hide from the online server list
+Announce: true
+
+# set to false to require players to be signed in to Steam
+DisableAuth: false
+
+# set to true to disable local script hook plugins
+DisableScriptHook: true
+
+# uncomment and set to the path of an icon to use in the server browser. it should be square.
+ServerIcon: hello.png
+
+# don't try enabling this
+#UseGameServerV2: true

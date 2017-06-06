@@ -1,0 +1,75 @@
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script>
+		function addCommas(nStr) {
+			nStr += '';
+			var x = nStr.split('.');
+			var x1 = x[0];
+			var x2 = x.length > 1 ? '.' + x[1] : '';
+			var rgx = /(\d+)(\d{3})/;
+			while (rgx.test(x1)) {
+				x1 = x1.replace(rgx, '$1' + '<span style="margin-left: 3px; margin-right: 3px;"/>' + '$2');
+			}
+			return x1 + x2;
+		}
+
+		window.onload = function(e){
+			window.addEventListener('message', function(event){
+				if(event.data.updateJob == true) {
+					$('.job').html('<p id="job"><img id="icon" src="job-icon.png" alt=""/>' +addCommas(event.data.job)+'</p>')
+				}
+			})
+		}
+	</script>
+	<style>
+		@font-face {
+			font-family: 'pricedown';
+			src: url(pricedown.ttf);
+		}
+		* {
+			font-family: pricedown;
+		}
+		.container {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 128;
+			right: 35;
+			width: 800px;
+			height: 200px;
+		}
+		
+		#job {
+			float:right;
+			font-family: pricedown;
+			font-weight: 700;
+			font-size: 30px;
+			color: white;
+			padding: 4px;
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+			margin: 0;
+			margin-right: -4px;
+		}
+		#icon {
+			height: 21px;
+			width: auto;
+			margin-right: 10px;
+		}
+		#pre {
+			font-size: 0.8rem;
+			margin-right: 5px;
+		}
+		.job {
+			display: inline-block;
+			height: 30px;
+			width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="job">
+		</div>
+	</div>
+</body>

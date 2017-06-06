@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+       <audio autoplay="" id="Loading" loop=""><source src="music/Loading.ogg" type="audio/ogg" />
+         <source src="music/Loading.ogg" type="audio/ogg">
+    </audio>
+    <script>
+     var vid = document.getElementById("Loading");
+     vid.volume = 0.2
+    </script>
+	
+	      <style>
+    
+      @import url(http://fonts.googleapis.com/css?family=Raleway:200);
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.75em;
+  font-weight: 200;
+  background: url('images/background.jpg') center no-repeat;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  overflow: hidden;
+}
+
+#main {
+  width: 1038.4px;
+  height: 100%;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+@media (max-height: 550px) {
+  #main {
+    padding-top: 0px;
+  }
+}
+.module {
+  height: 100px;
+  display: block;
+  background-color: #f1f1f1;
+  box-shadow: inset 1px 0px 0px 1px #b8b8b8;
+  line-height: 100px;
+  color: #818181;
+}
+
+.module2 {
+  height: 40px;
+  display: block;
+  background-color: #f1f1f1;
+  box-shadow: inset 1px 0px 0px 1px #b8b8b8;
+  line-height: 100px;
+  color: #818181;
+}
+
+.rule {
+  font-size: 0.80em;
+  font-weight: 200;
+  margin-top: 5px;
+  line-height: 42px;
+  margin-left: auto;
+}
+
+.icon {
+  float: left;
+  width: 20%;
+  min-width: 100px;
+  height: 100%;
+  display: inline-block;
+  background-color: #dbdbdb;
+  box-shadow: 1px 0 0 0px #b8b8b8;
+}
+
+#left {
+  width: 48%;
+  height: 500px;
+  display: inline;
+  float: left;
+  background-color: #e65050;
+  box-shadow: 0px 0px 50px 0px #000;
+}
+
+#right {
+  width: 48%;
+  height: 500px;
+  display: inline;
+  float: right;
+  background-color: #e65050;
+  box-shadow: 0px 0px 50px 0px #000;
+}
+
+#player-avatar-module {
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  margin-left: -165px;
+  display: inline-block;
+  background-color: #b8b8b8;
+  border-radius: 100px;
+}
+
+#player-avatar {
+  width: 177px;
+  height: 177px;
+  padding-top: 2px;
+  border-radius: 100px;
+}
+
+#informations {
+  height: 100px;
+  line-height: 100px;
+  font-size: 1.75em;
+  font-weight: 200;
+  color: #fff;
+}
+
+#reglement {
+  height: 100px;
+  line-height: 100px;
+  font-size: 1.75em;
+  font-weight: 200;
+  color: #fff;
+}
+
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div id="main">
+<center><img class="logo" src="images/logo.png"></center>
+  
+            <div class="letni">
+                <h2>Chargement</h2>
+                <div class="loadbar"></div>
+                <div class="load"><div class="thingy"></div><p><font face="Raleway" color="red">Connexion en cours</p></div>
+            </div>
+            
+        </div>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script type="text/javascript">
+// this will actually restart the loading bar a lot, making multiple loading bars is an exercise to the reader... for now.
+// for a set of possible events, see https://github.com/citizenfx/cfx-client/blob/up-master/components/loading-screens-five/src/LoadingScreens.cpp
+var count = 0;
+var thisCount = 0;
+
+const emoji = {
+    INIT_BEFORE_MAP_LOADED: [ '🍉' ],
+    INIT_AFTER_MAP_LOADED: [ '🍋', '🍊' ],
+    INIT_SESSION: [ '🍐', '🍅', '🍆' ],
+};
+
+const handlers = {
+    startInitFunctionOrder(data)
+    {
+        count = data.count;
+
+        document.querySelector('.letni h3').innerHTML += emoji[data.type][data.order - 1] || '';
+    },
+
+    initFunctionInvoking(data)
+    {
+        document.querySelector('.thingy').style.left = '0%';
+        document.querySelector('.thingy').style.width = ((data.idx / count) * 100) + '%';
+    },
+
+    startDataFileEntries(data)
+    {
+        count = data.count;
+
+        document.querySelector('.letni h3').innerHTML += "\u{1f358}";
+    },
+
+    performMapLoadFunction(data)
+    {
+        ++thisCount;
+
+        document.querySelector('.thingy').style.left = '0%';
+        document.querySelector('.thingy').style.width = ((thisCount / count) * 100) + '%';
+    },
+
+    onLogLine(data)
+    {
+        document.querySelector('.letni p').innerHTML = "Progression: " + data.message + " - Règlement sur forum.cana-rp.fr";
+    }
+};
+
+window.addEventListener('message', function(e)
+{
+    (handlers[e.data.eventName] || function() {})(e.data);
+});
+</script>
+    </body>
+</html>
