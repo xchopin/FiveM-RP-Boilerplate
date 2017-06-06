@@ -2,6 +2,11 @@
 
 > This is a boilerplate for FiveM Roleplay Server, it might will help you to save a lot of time by skipping the development of the same boring stuff. I developed a server but I do not have the time to continue (because of family and work) so I share what I have developped during some weeks. | Texts are in French but it's easy to change it. Contributions are welcomed.
 
+
+## Requirements
+- MySQL / MariaDB
+- Latest CitizenMP Version
+
 ## What's included ?
 - ID Card
 - Dirty money system
