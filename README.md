@@ -11,7 +11,7 @@
 
 ## What's included ?
 - ID Card
-- Dirty money system
+- Dirty money (automatic on Illegal recolts, money laundering included)
 - Admin tools
 - _Illegal (weed)_
 - Phone system (Texts, Contacts, Emergency call, Taxi call)
@@ -19,7 +19,7 @@
 - LS Customs
 - Driving and weapon license
 - Emotes
-- Iventory
+- Inventory (35 items)
 - Foodshops
 - Clothing shops
 - Gun shops
