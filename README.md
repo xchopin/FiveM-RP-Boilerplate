@@ -26,6 +26,9 @@
 - Some buildings opened (FIB, Hospital, ...)
 - Transporter
 - Realistic earshot 
+- Gas Stations
+- HUD
+- Car health and speed
 
 
 ## Jobs
