@@ -59,8 +59,10 @@ AutoStartResources:
 
 
 # do change
+RconPassword: MLKhHLghGKgkgjhGJHgjhokds5q7_d5ezezzdtyr
 
 # configure this, please
+Hostname: 'GITHUB.COM^4/XCHOPIN - ^0FIVEM ^6BOILERPLATE'
 
 ScriptDebug: true
 
