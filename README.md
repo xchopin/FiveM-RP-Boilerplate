@@ -30,13 +30,14 @@
 
 ## Jobs
 - Taxi
-- Miner
-- Paramedics
 - Lumberjack
-- LSPD (Police)
-- IIA (CIA)
-- Governor
+- Miner
 - Winegrower
+- Paramedics - Whitelisted
+- LSPD (Police) - Whitelisted
+- IIA (CIA) - Whitelisted
+- Governor - Whitelisted
+
 
 
 ## Addons used (under license)
