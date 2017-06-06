@@ -1,6 +1,8 @@
 # FiveM-Boilerplate
 
-> This is a boilerplate for FiveM Roleplay Server, it might will help you to save a lot of time by skipping the development of the same boring stuff. I developed a server but I do not have the time to continue (because of family and work) so I share what I have developped during some weeks. | Texts are in French but it's easy to change it. Contributions are welcomed.
+### This is a boilerplate for FiveM Roleplay Server, it might help you to save a lot of time by skipping the development of the same boring stuff. 
+
+> I developed a server but I do not have the time to continue (because of family and work) so I share what I have developped during some weeks. Texts are in french but it's very easy to change it. Contributions are welcomed.
 
 
 ## Requirements
