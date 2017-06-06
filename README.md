@@ -45,6 +45,11 @@
 ### 1. Import `install.sql` into your DBMS 
 ### 2. Change the database credentials in each server's lua files
 
+## Usage (in game)
+`K` : Open your personnal menu
+`X` : Hands up (you can move)
+`N` : Talk
+`M` : Vehicle menu
 
 ## Jobs
 - Jobless (what a job...)
