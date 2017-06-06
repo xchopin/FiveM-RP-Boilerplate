@@ -48,11 +48,13 @@
 - Miner
 - Winegrower
 - Trucker
-- Paramedics - Whitelisted
+- CHU (Paramedics) - Whitelisted
 - LSPD (Police) - Whitelisted
-- IIA (CIA) - Whitelisted
+- GSPR (CIA) - Whitelisted
 - Governor - Whitelisted
-
+- Lawyer - Whitelisted
+- Judge - Whitelisted
+- Ministers - Whitelisted
 
 
 ## Addons used (under license)
@@ -73,4 +75,5 @@
  - warp
  - paramedics
  - weashop
+ - car skins
  
