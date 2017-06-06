@@ -4,10 +4,12 @@
 
 > I developed a server but I do not have the time to continue (because of family and work) so I share what I have developped during some weeks. Texts are in french but it's very easy to change it. Contributions are welcomed.
 
+<img src='http://image.noelshack.com/fichiers/2017/23/1496767575-previewgta-1.jpg' style='width: 50%; height:auto' alt='preview1'/>
+
 
 ## Requirements
-- MySQL / MariaDB
-- Latest CitizenMP Version
+- MySQL or MariaDB
+- Windows or Linux Server
 
 ## What's included ?
 - ID Card
@@ -37,6 +39,7 @@
 - HUD
 - Car health and speed
 - Custom cars (Audi, Police, Ferrari, ...)
+
 
 
 ## Jobs
