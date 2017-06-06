@@ -41,8 +41,13 @@
 - Custom cars (Audi, Police, Ferrari, ...)
 
 
+## How to install it ?
+### 1. Import `install.sql` into your DBMS 
+### 2. Change the database credentials in each server's lua files
+
 
 ## Jobs
+- Jobless (what a job...)
 - Taxi
 - Lumberjack
 - Miner
@@ -55,7 +60,6 @@
 - Lawyer - Whitelisted
 - Judge - Whitelisted
 - Ministers - Whitelisted
-
 
 ## Addons used (under license)
  - SimpleBanking
