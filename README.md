@@ -1,5 +1,6 @@
 # FiveM-Boilerplate
-Boilerplate for FiveM
+
+> This is a boilerplate for FiveM Roleplay Server, it might will help you to save a lot of time by creating the same boring stuff. I developed a server but I do not have the time to continue (because of family and work) so I share what I have developped during some weeks.
 
 ## Features included
 - ID Card
@@ -24,6 +25,7 @@ Boilerplate for FiveM
 - Whitelist
 - Some buildings opened (FIB, Hospital, ...)
 - Transporter
+- Realistic earshot 
 
 
 
