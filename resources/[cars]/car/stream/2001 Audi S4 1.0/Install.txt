@@ -1,0 +1,23 @@
+SA version created by Silver102, SGDesign 
+Converted for V by Ghost0912
+
+
+Replaces: Oracle 
+
+
+
+
+Featured List: 
+- original steeringwheel work 
+- glass crashes 
+- working lights 
+- correct door, bonnet and boot collision and opening
+- 3d engine
+- correct hand position
+- dials work 
+
+
+Install: 
+
+Model: mods\x64e.rpf\levels\gta5\vehicles.rpf
+
