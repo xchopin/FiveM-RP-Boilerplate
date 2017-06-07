@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `bans` (
-  `id` int(10) NOT NULL,
+  `id` int(10) NOT NULL AUTO_INCREMENT,
   `banned` varchar(50) NOT NULL DEFAULT '0',
   `banner` varchar(50) NOT NULL,
   `reason` varchar(150) NOT NULL DEFAULT '0',
@@ -46,7 +46,7 @@ CREATE TABLE `bans` (
 --
 
 CREATE TABLE `coordinates` (
-  `id` int(11) UNSIGNED NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `x` double DEFAULT NULL,
   `y` double DEFAULT NULL,
   `z` double DEFAULT NULL,
@@ -78,7 +78,7 @@ INSERT INTO `coordinates` (`id`, `x`, `y`, `z`, `name`) VALUES
 --
 
 CREATE TABLE `items` (
-  `id` int(11) UNSIGNED NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `libelle` varchar(255) DEFAULT NULL,
   `isIllegal` tinyint(1) NOT NULL DEFAULT '0',
   `food` varchar(255) NOT NULL DEFAULT '0',
@@ -156,7 +156,7 @@ INSERT INTO `jobs` (`job_id`, `job_name`, `salary`, `whitelisted`) VALUES
 --
 
 CREATE TABLE `licences` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `price` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -178,7 +178,7 @@ INSERT INTO `licences` (`id`, `name`, `price`) VALUES
 --
 
 CREATE TABLE `recolt` (
-  `ID` int(11) UNSIGNED NOT NULL,
+  `ID` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `raw_id` int(11) UNSIGNED DEFAULT NULL,
   `treated_id` int(11) UNSIGNED DEFAULT NULL,
   `job_id` int(11) DEFAULT NULL,
@@ -285,7 +285,7 @@ CREATE TABLE `user_inventory` (
 --
 
 CREATE TABLE `user_licence` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `identifier` varchar(255) NOT NULL,
   `licence_id` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -302,7 +302,7 @@ CREATE TABLE `user_message` (
   `date` varchar(255) DEFAULT '01/01/1970',
   `has_read` int(11) NOT NULL DEFAULT '0',
   `receiver_id` varchar(255) NOT NULL,
-  `id` int(11) NOT NULL
+  `id` int(11) NOT NULL AUTO_INCREMENT
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 
@@ -316,7 +316,7 @@ CREATE TABLE `user_message` (
 CREATE TABLE `user_phonelist` (
   `contact_id` varchar(255) NOT NULL,
   `owner_id` varchar(255) NOT NULL,
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL DEFAULT 'Contact'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -327,7 +327,7 @@ CREATE TABLE `user_phonelist` (
 --
 
 CREATE TABLE `user_vehicle` (
-  `ID` int(11) NOT NULL,
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
   `identifier` varchar(255) NOT NULL,
   `vehicle_name` varchar(60) DEFAULT NULL,
   `vehicle_model` varchar(60) DEFAULT NULL,
@@ -346,7 +346,7 @@ CREATE TABLE `user_vehicle` (
 --
 
 CREATE TABLE `user_weapons` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `identifier` varchar(255) NOT NULL,
   `weapon_model` varchar(255) NOT NULL,
   `withdraw_cost` int(11) NOT NULL
@@ -369,7 +369,7 @@ CREATE TABLE `user_whitelist` (
 --
 
 CREATE TABLE `vehicles` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) NOT NULL,
   `price` int(255) NOT NULL,
   `model` varchar(255) NOT NULL
