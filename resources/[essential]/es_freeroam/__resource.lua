@@ -1,4 +1,4 @@
-resource_type 'gametype' { name = 'cana_rp_made_by_github.com/xchopin'}
+resource_type 'gametype' { name = 'github.com/xchopin/FiveM-RP-Boilerplate}
 
 description 'FiveM es_freeroam'
 
