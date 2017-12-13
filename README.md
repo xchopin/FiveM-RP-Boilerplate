@@ -2,10 +2,9 @@
 
 ### This is a boilerplate for FiveM Roleplay Server, it might help you to save a lot of time by skipping the development of the same boring stuff. 
 
-> I developed a server but I do not have the time to continue (because of family and work) so I share what I have done during the past few weeks. Texts are in french but it's very easy to change them. Contributions are welcomed.
-
 <img src='http://image.noelshack.com/fichiers/2017/23/1496767575-previewgta-1.jpg' style='width: 50%; height:auto' alt='preview1'/>
 
+> NOT MAINTAINED ANYMORE 
 
 ## Requirements
 - MySQL or MariaDB
@@ -13,9 +12,9 @@
 
 ## What's included ?
 - ID Card
-- Dirty money (automatic on Illegal recolts, money laundering included)
+- Dirty money (automatic on "illegal recolts", money laundering is also included)
 - Admin tools
-- _Illegal (weed)_
+- _Illegal (drugs)_
 - Phone system (Texts, Contacts, Emergency call, Taxi call)
 - Personnal menu
 - LS Customs
@@ -58,9 +57,9 @@
 - Miner
 - Winegrower
 - Trucker
-- CHU (Paramedics) - Whitelisted
-- LSPD (Police) - Whitelisted
-- GSPR (CIA) - Whitelisted
+- Paramedics (named CHU) - Whitelisted
+- LSPD - Whitelisted
+- CIA (named GSPR) - Whitelisted
 - Governor - Whitelisted
 - Lawyer - Whitelisted
 - Judge - Whitelisted
