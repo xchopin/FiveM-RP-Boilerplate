@@ -42,7 +42,7 @@
 
 ## How to install it ?
 ### 1. Import `install.sql` into your DBMS (e.g. MySQL)
-### 2. Changed the credentials of server files
+### 2. Change the credentials of server files
 In order to enable all the plugins you have to edit the server.lua files (or sometimes settings.lua) each in packages of the `resources/`directory. Add you database name, the username and the password.
 
 ## Usage (in game)
