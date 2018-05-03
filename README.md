@@ -43,7 +43,12 @@
 ## How to install it ?
 ### 1. Import `install.sql` into your DBMS (e.g. MySQL)
 ### 2. Change the credentials of server files
-In order to enable all the plugins you have to edit the server.lua files (or sometimes settings.lua) each in packages of the `resources/`directory. Add you database name, the username and the password.
+In order to enable all the plugins you have to edit the `server.lua` files and sometimes `settings.lua` in each packages present in the `resources/`directory. 
+That means you have to fill the database name, login and password fields to allow a connection to the database. 
+
+#### Example with [resources/jobs/police](https://github.com/xchopin/FiveM-RP-Boilerplate/blob/master/resources/%5Bjobs%5D/police)
+In this package you have a file named [server.lua](https://github.com/xchopin/FiveM-RP-Boilerplate/blob/master/resources/%5Bjobs%5D/police/server.lua), at the line 2 you have to add the database credentials.
+
 
 ## Usage (in game)
 `K` : Open your personnal menu
