@@ -4,7 +4,7 @@
 
 <img src='http://image.noelshack.com/fichiers/2017/23/1496767575-previewgta-1.jpg' style='width: 50%; height:auto' alt='preview1'/>
 
-> Warning: This project is not maintained anymore and use the legacy version of FiveM 
+> Warning: This project is not maintained anymore and uses the legacy version of FiveM 
 
 ## Requirements
 - MySQL or MariaDB
