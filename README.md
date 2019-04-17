@@ -14,9 +14,9 @@
 - ID Card
 - Dirty money (automatic on "illegal recolts", money laundering is also included)
 - Admin tools
-- _Illegal (drugs)_
+- _Illegal business (drugs)_
 - Phone system (Texts, Contacts, Emergency call, Taxi call)
-- Personnal menu
+- Personal menu
 - LS Customs
 - Driving and weapon license
 - Emotes
