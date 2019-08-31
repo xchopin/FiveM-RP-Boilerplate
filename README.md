@@ -10,7 +10,7 @@
 - MySQL or MariaDB
 - Windows or Linux Server
 
-## What's included ?
+## What's included?
 - ID Card
 - Dirty money (automatic on "illegal recolts", money laundering is also included)
 - Admin tools
@@ -40,7 +40,7 @@
 - Custom cars (Audi, Police, Ferrari, ...)
 
 
-## How to install it ?
+## How to install it?
 ### 1. Import `install.sql` into your DBMS (e.g. MySQL)
 ### 2. Change the credentials of server files
 In order to enable all the plugins you have to edit the `server.lua` files and sometimes `settings.lua` in each packages present in the `resources/`directory. 
